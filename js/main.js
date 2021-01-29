@@ -25,9 +25,13 @@ function draw() {
     displayedScoreincrease.innerHTML =`SCORE: ${game.player.scoreincrease}`
     if (game.player.score === 0){
         frameRate(0);
-            alert(" YOU LOST !!!  :(  Accept if you want to continue");
+            alert(" YOU LOST !!!  :(  ouuu buuu buuu");
             location.reload();
-
+    }
+    if (game.player.scoreincrease === 1010){
+        frameRate(0);
+            alert(" YOU WIN ..... WIN  ::YEAHHHHH !!!");
+            location.reload();
     }
 }
 
